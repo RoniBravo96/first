@@ -1,0 +1,27 @@
+{
+  "include_keywords": ["digital", "verification", "hardware", "analog", "board", "vlsi", "phy", "post-silicon", "test", "validation", "signal integrity", "power integrity", "ate", "dfx", "rtl"],
+  "exclude_keywords": ["senior", "staff", "manager", "lead", "principal", "architect", "director", "vp"],
+  "locations_whitelist": ["israel", "haifa", "yokneam", "caesarea", "netanya", "herzliya", "tel aviv", "jerusalem", "hod hasharon", "ra'anana", "raanana", "kiryat gat", "yavne"],
+  "locations_blacklist": [],
+  "remote_ok": true,
+  "junior_signals": ["junior", "entry", "graduate", "student", "new grad", "intern", "co-op"],
+  "max_companies": 200,
+  "request_timeout_sec": 20,
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119 Safari/537.36",
+  "min_sleep_between_requests": 0.8,
+  "max_sleep_between_requests": 2.2,
+  "feedback_csv": "jobs_feedback.csv",
+  "history_csv": "jobs_history.csv",
+  "results_csv": "jobs_results.csv",
+  "excel_sheet": null,
+  "excel_company_col": "Company Name",
+  "excel_url_col": "Career URL",
+  "db_path": "out_jobs/jobs.sqlite",
+  "model_path": "out_jobs/model.joblib",
+
+  "selenium_enabled": false,
+  "selenium_headless": true,
+
+  "telegram_bot_token": "8385153495:AAFcN101mXkTf23kQQkbHcTMCPmSgatFHjQ",
+  "telegram_chat_id": "5561918922"
+}
